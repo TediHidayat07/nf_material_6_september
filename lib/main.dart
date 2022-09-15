@@ -11,21 +11,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        title: 'nf_material_6_september',
         home: Scaffold(
-      appBar: AppBar(
-        title: const Text('Latihan Row & Column'),
-        backgroundColor: Colors.deepOrangeAccent,
-      ),
-      body: Container(
-        color: Colors.red,
-        margin: const EdgeInsets.fromLTRB(10, 15, 10, 15),
-        child: Container(
-          decoration: const BoxDecoration(
-              gradient:
-                  (LinearGradient(colors: <Color>[Colors.amber, Colors.blue]))),
-        ),
-      ),
-    ));
+          appBar: AppBar(
+            title: const Text('Latihan Row & Column'),
+            backgroundColor: Colors.deepOrangeAccent,
+          ),
+          body: Container(
+            color: Colors.red,
+            margin: const EdgeInsets.fromLTRB(10, 15, 10, 15),
+            child: Container(
+              decoration: const BoxDecoration(
+                  gradient: (LinearGradient(
+                      colors: <Color>[Colors.amber, Colors.blue]))),
+            ),
+          ),
+        ));
   }
 }
 
